@@ -1,7 +1,7 @@
 # gitdemo
 understanding git workflow and commands
 
-# Prerequisite - please comeple before coming to meeting
+# Prerequisite - please complete before coming to meeting
 ## 1. create github account.
 ### Add ssh key from local machine to github. 
 Generate new ssh key and add it to your github account
@@ -9,23 +9,22 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a
 
 # Day 0
 Clone the repo
-git clone https://github.com/kkjoshi/gitdemo.git
+`git clone https://github.com/kkjoshi/gitdemo.git`
 
 # Day 1
 ## 1. Switch to develop and get latest
-'''
+```
 git fetch
 git checkout develop 
 git pull origin develop
-
-'''
+```
 git checkout -b feature/abc-123-learn-git develop. Here abc-123 is jira ticket number
 ## Start working on a feature/story
 ## local changes-test-commit 1 to .. many throughout the day
-' git commit -m "commit message" ' 
+`git commit -m "commit message"`
 
 ## before end of day
-git push --set-upstream origin feature/abc-123-learn-git
+`git push --set-upstream origin feature/abc-123-learn-git`
 
 # Day 2
 ## get latest from develop, integrate latest on develop
@@ -35,7 +34,7 @@ git pull
 ```
 
 ## local changes-test-commit 1 .. many throughout the day
-'git commit -m "commit message"'
+`git commit -m "commit message"`
 
 ## before end of day
 `git push`
