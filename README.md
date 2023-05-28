@@ -1,7 +1,15 @@
 # gitdemo
 understanding git workflow and commands
 
-git clone https://github.com/mukulk82/gitdemo.git
+# Prerequisite - please comeple before coming to meeting
+## 1. create github account.
+### Add ssh key from local machine to github. 
+Generate new ssh key and add it to your github account
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=mac&tool=cli
+
+# Day 0
+Clone the repo
+git clone https://github.com/kkjoshi/gitdemo.git
 
 # Day 1
 ## 1. Switch to develop and get latest
