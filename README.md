@@ -1,9 +1,9 @@
 # gitdemo
-Understanding git workflow and commands used in day-to-day work
+Understanding git workflow and commands used in day-to-day work.
 
 ## Prerequisite - please complete before coming to meeting
-## 1. create github account.
-### Add ssh key from local machine to github. 
+## create your github account.
+### Add ssh key from local machine to github account.
 Generate new ssh key and add it to your github account
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account?platform=mac&tool=cli
 
