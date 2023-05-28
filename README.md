@@ -39,7 +39,7 @@ target branch must be develop
 
 For review comments follow same once MR/PR approved
 
-**if auto merge is not allowed get latest from develop & merge locally, resolve conflicts and try again**
+**If auto merge is not allowed get latest from develop & merge locally, resolve conflicts and try again**
 
 `git push`
 
