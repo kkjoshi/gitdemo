@@ -46,9 +46,14 @@ target branch must be develop
 For review comments follow same once MR/PR approved
 
 **If auto merge is not allowed get latest from develop & merge locally, resolve conflicts and try again**
-
-`git push`
-
+```
+git fetch origin develop
+git pull #there may be merge conflict which would not merge
+# for manual merge can run merge tool or consider rebase
+git config pull.rebase true 
+git mergetool
+git push
+```
 ## get approval again by poking reviewer.
 ## merge using Gitlab UI or with commandline squash merge option
 
