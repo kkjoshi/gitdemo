@@ -50,7 +50,7 @@ For review comments follow same once MR/PR approved
 git fetch origin develop
 git pull #there may be merge conflict which would not merge
 # for manual merge can run merge tool or consider rebase
-git config pull.rebase true 
+git config pull.rebase false 
 git mergetool
 git push
 ```
